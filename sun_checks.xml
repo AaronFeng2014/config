@@ -54,7 +54,7 @@
       excludeScope: 不能检查的类的范围，例如：public，public的类将不被检查，但访问权限小于public的类仍然会检查，其他的权限以此类推
       tokens: 该属性适用的类型，例如：CLASS_DEF,INTERFACE_DEF -->
     <module name="JavadocType">  
-      <property name="authorFormat" value="\S"/>  
+      <property name="authorFormat" value="\S"/>
       <property name="scope" value="protected"/>        
       <property name="tokens" value="CLASS_DEF,INTERFACE_DEF"/>  
     </module>

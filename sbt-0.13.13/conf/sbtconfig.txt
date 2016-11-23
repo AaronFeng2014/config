@@ -1,0 +1,25 @@
+# Set the java args to high
+
+-Xmx512M
+
+-XX:MaxPermSize=256m
+
+-XX:ReservedCodeCacheSize=128m
+
+# Set the extra SBT options
+
+-Dsbt.log.format=true
+
+-Dsbt.boot.directory=D:/develop/sbt-0.13.13/repo/boot/
+
+-Dsbt.ivy.home=D:/develop/sbt-0.13.13/repo/ivy/
+
+-Dsbt.global.base=D:/develop/sbt-0.13.13/conf
+
+-Dsbt.version=0.13.13
+
+-Dhttp.proxyHost=loalhost
+
+-Dhttp.proxyPort=8080
+
+-Dsbt.repository.config=D:/develop/sbt-0.13.13/conf/repo.properties
